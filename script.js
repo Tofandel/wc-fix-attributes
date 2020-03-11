@@ -10,7 +10,7 @@ jQuery(function ($) {
                         url: WCFixAttributes.ajaxurl,
                         dataType: 'json',
                         type: "GET",
-                        quietMillis: 50,
+                        quietMillis: 400,
                         data: function (term) {
                             return {
                                 action: 'wc_fix_search_terms',
